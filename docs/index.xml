@@ -6,7 +6,7 @@
     <description>Recent content on Leo 的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 19 May 2021 11:50:25 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 12 Jun 2021 15:57:24 +0800</lastBuildDate>
     
         <atom:link href="https://runlin.live/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -26,6 +26,53 @@
 &lt;li&gt;Follow me on &lt;a href=&#34;https://twitter.com/Leo36363824&#34;&gt;Twitter&lt;/a&gt; &lt;a href=&#34;https://space.bilibili.com/294989861&#34;&gt;bilibili&lt;/a&gt; &lt;a href=&#34;https://github.com/runlin-wang&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
+      
+    </item>
+    
+    <item>
+      <title>我的文件管理方式</title>
+      <link>https://runlin.live/blog/post/210612_my_way_file_management/</link>
+      <pubDate>Sat, 12 Jun 2021 15:57:24 +0800</pubDate>
+      
+      <guid>https://runlin.live/blog/post/210612_my_way_file_management/</guid>
+      
+        <description>&lt;h2 id=&#34;0x00&#34;&gt;0x00&lt;/h2&gt;
+&lt;p&gt;浅显的讲一下我目前的文件方式。&lt;/p&gt;
+&lt;h2 id=&#34;0x01&#34;&gt;0x01&lt;/h2&gt;
+&lt;p&gt;我把我的文件分为几种类型&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;个人照片、视频&lt;/li&gt;
+&lt;li&gt;代码&lt;/li&gt;
+&lt;li&gt;常用文档&lt;/li&gt;
+&lt;li&gt;归档&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;当然，我这个分类是不太细的，因为在正常的使用过程中，我们的文件常常会比较混杂。&lt;/p&gt;
+&lt;p&gt;所以其中 归档 中也可能有 代码、照片、视频、文档，而 常用 类型中也会出现其他类型。&lt;/p&gt;
+&lt;p&gt;所以我们只按大类来划分。&lt;/p&gt;
+&lt;h2 id=&#34;0x02&#34;&gt;0x02&lt;/h2&gt;
+&lt;p&gt;目前主要采取的文件管理的方式是&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;照片、视频类文件存放在 &lt;strong&gt;本地&lt;/strong&gt;、&lt;strong&gt;移动硬盘&lt;/strong&gt;、&lt;strong&gt;阿里云盘&lt;/strong&gt;（容量大，主入口就有相册这个功能，专门针对相册做过优化）各一份&lt;/li&gt;
+&lt;li&gt;代码采取 &lt;strong&gt;本地&lt;/strong&gt;、&lt;strong&gt;GitHub&lt;/strong&gt;、&lt;strong&gt;Gitee&lt;/strong&gt; 同步&lt;/li&gt;
+&lt;li&gt;常用文档 采取 &lt;strong&gt;坚果云&lt;/strong&gt;、&lt;strong&gt;WPS 云文档&lt;/strong&gt; 同步&lt;/li&gt;
+&lt;li&gt;归档采取 &lt;strong&gt;移动硬盘&lt;/strong&gt;、&lt;strong&gt;云盘&lt;/strong&gt; 双保险备份&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;0x03&#34;&gt;0x03&lt;/h2&gt;
+&lt;p&gt;解释一下这么做的原因&lt;/p&gt;
+&lt;p&gt;首先因为本身工作（写代码）和兴趣爱好（写代码）的原因，所以照片和视频对我来说，只要有个地方存着，随时能看就好，最好还要不占用我太大的内存空间，我也不需要随时对照片、视频进行编辑之类的（或许以后有可能吧），ei，云盘就很好的满足了我上述要求，舒服了。&lt;/p&gt;
+&lt;p&gt;关于代码的话，小文件多了存到机械硬盘里要随时取用本身就不是一件很舒服的事（速度很慢）。&lt;/p&gt;
+&lt;p&gt;那么为什么不采取 坚果云 呢？因为之间 &lt;code&gt;.config&lt;/code&gt; 文件夹就是采取 坚果云 同步的，然后 nvim 内加载了很多 &lt;code&gt;node_module&lt;/code&gt; （几百 MB），坚果云 上传流量（每月免费 1 GB）直接给我干得稀碎，之后就再也不同步代码了，你怎么知道你这个项目会不会添加一些莫名其妙的依赖的，我还是老老实实使用 GitHub 吧，毕竟 &lt;code&gt;.gitignore&lt;/code&gt; 是可以忽略文件或文件夹的，针不戳。之前也试过配置坚果云忽略文件夹，不过当时好像只能在 Windows 上使用，可怜我这不想使用 Windows 的用户。&lt;/p&gt;
+&lt;p&gt;常用文档这个就没得说了，坚果云这个同步文件夹的功能还是很 nice 的，每个月可以有 1GB 的上传流量，这不就是往里面存东西了，hah，吹爆，除此之外，WPS 云文档 也是很不错的，虽然总容量只有 1GB，不过由于文档的特殊性，一般不会太大，省着点用，没问题，还能多端同步，网页在线查看、编辑，还是很棒的。&lt;/p&gt;
+&lt;p&gt;归档这个就没什么好说的了，多备份几份没毛病的，所以 移动硬盘 + 网盘 + NAS（之后再上）。&lt;/p&gt;
+&lt;h2 id=&#34;0x04&#34;&gt;0x04&lt;/h2&gt;
+&lt;p&gt;另外还有一些其他的网盘、云盘和其他存储设备。&lt;/p&gt;
+&lt;p&gt;比如我用过的 奶牛快传、文叔叔、天翼云盘 &amp;hellip;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;还有以后想要的 NAS。&lt;/p&gt;
+&lt;p&gt;之后有钱了肯定还会上 NAS 的、简直太香了。&lt;/p&gt;
+&lt;h2 id=&#34;0x0a&#34;&gt;0x0a&lt;/h2&gt;
+&lt;p&gt;为什么要进行文件管理？&lt;/p&gt;
+&lt;p&gt;我把这个理解为一种生活方式、一种 “理财” 方式，现在计算机已经离不开我们的生活了，而计算机中的文件就是数据的载体，我认为，在未来、或者说现在，数据就是一种财富。&lt;/p&gt;
+&lt;p&gt;而管理好所拥有的文件，便是一种大智慧。&lt;/p&gt;</description>
       
     </item>
     

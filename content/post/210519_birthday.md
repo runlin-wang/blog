@@ -5,8 +5,8 @@ lastmod: 2021-05-19T11:50:25+08:00
 draft: false
 keywords: ['birthday', 'life']
 description: "生日快乐"
-tags: ['life', '生活']
-categories: ['life', '生活']
+tags: ['life', '生活', '生日']
+categories: ['生活']
 author: "LeoWang"
 
 toc: false

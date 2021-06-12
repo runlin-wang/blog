@@ -6,7 +6,7 @@ draft: false
 keywords: ["Vim", "tips"]
 description: "Vim tips"
 tags: ["Vim", "tips", "技术向"]
-categories: ["Vim", "技术向", "tips"]
+categories: ["技术向", "tips"]
 author: "LeoWang"
 
 comment: true

@@ -6,7 +6,7 @@ draft: false
 keywords: ["Hugo", "Hexo", "WordPress", "VimWiki"]
 description: "博客平台的选择"
 tags: ["Hugo", "Hexo", "WordPress", "VimWiki", "Golang"]
-categories: ["write"]
+categories: ["写作"]
 author: "LeoWang"
 
 toc: false
