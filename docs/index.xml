@@ -18,7 +18,13 @@
       
       <guid>https://runlin.live/blog/about/</guid>
       
-        <description>&lt;p&gt;Nothing.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;hi---im-leohttpsrunlinlive&#34;&gt;Hi 👋 , I&amp;rsquo;m &lt;a href=&#34;https://runlin.live/&#34;&gt;Leo&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Read more about my &lt;a href=&#34;https://runlin.live/blog/post&#34;&gt;Blog post&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Talk with me by &lt;a href=&#34;mailto:leo@runlin.live&#34;&gt;Email&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Follow me on &lt;a href=&#34;https://twitter.com/Leo36363824&#34;&gt;Twitter&lt;/a&gt; &lt;a href=&#34;https://space.bilibili.com/294989861&#34;&gt;bilibili&lt;/a&gt; &lt;a href=&#34;https://github.com/runlin-wang&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       
     </item>
@@ -154,7 +160,8 @@ I only want many money.&lt;/p&gt;
       
       <guid>https://runlin.live/blog/post/210416_hugo_blog/</guid>
       
-        <description>&lt;p&gt;个人博客最重要的是坚持。&lt;/p&gt;
+        <description>&lt;h2 id=&#34;0x00&#34;&gt;0x00&lt;/h2&gt;
+&lt;p&gt;个人博客最重要的是坚持。&lt;/p&gt;
 &lt;h2 id=&#34;博客平台的选择&#34;&gt;博客平台的选择&lt;/h2&gt;
 &lt;p&gt;尝试过很多静态站点生成器，如：&lt;/p&gt;
 &lt;ul&gt;
@@ -221,7 +228,8 @@ hah， .top 的域名还是很便宜的，我买了一年的只花了 6 元，�
       
       <guid>https://runlin.live/blog/post/210316_tmux/</guid>
       
-        <description>&lt;p&gt;tmux 基础操作与快捷键&lt;/p&gt;
+        <description>&lt;h2 id=&#34;0x00&#34;&gt;0x00&lt;/h2&gt;
+&lt;p&gt;tmux 基础操作与快捷键&lt;/p&gt;
 &lt;h1 id=&#34;tmux-使用手册&#34;&gt;tmux 使用手册&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.ruanyifeng.com/blog/2019/10/tmux.html&#34;&gt;Tmux 使用教程&lt;/a&gt;&lt;/p&gt;
@@ -269,7 +277,8 @@ hah， .top 的域名还是很便宜的，我买了一年的只花了 6 元，�
       
       <guid>https://runlin.live/blog/post/210314_vim_tips/</guid>
       
-        <description>&lt;p&gt;Vim 操作小提示&lt;/p&gt;
+        <description>&lt;h2 id=&#34;0x00&#34;&gt;0x00&lt;/h2&gt;
+&lt;p&gt;Vim 操作小提示&lt;/p&gt;
 &lt;h1 id=&#34;vim-tips&#34;&gt;Vim Tips&lt;/h1&gt;
 &lt;h2 id=&#34;setting&#34;&gt;setting&lt;/h2&gt;
 &lt;h2 id=&#34;tips&#34;&gt;tips&lt;/h2&gt;
