@@ -16,6 +16,8 @@ reward: false
 mathjax: false
 ---
 
+## 0x00
+
 Vim 操作小提示
 
 <!--more-->

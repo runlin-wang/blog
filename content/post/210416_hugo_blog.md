@@ -15,6 +15,8 @@ reward: false
 mathjax: false
 ---
 
+## 0x00
+
 个人博客最重要的是坚持。
 
 <!--more-->
