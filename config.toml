@@ -94,7 +94,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
     # d-facebook = "http://localhost:1313"
     # e-linkedin = "http://localhost:1313"
     # f-google = "http://localhost:1313"
-    g-github = "https://github.com/runlin-wang/"
+    g-github = "https://github.com/wangrunlin/"
     # h-weibo = "http://localhost:1313"
     # i-zhihu = "http://localhost:1313"
     # j-douban = "http://localhost:1313"
@@ -117,7 +117,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   # TODO:  <16-04-21, leo> #create a repo to utteranc
   [params.utteranc]         # utteranc is a comment system based on GitHub issues. see https://utteranc.es
     enable = true
-    repo = "runlin-wang/utterances_blog"    # The repo to store comments
+    repo = "wangrunlin/utterances_blog"    # The repo to store comments
     issueTerm = "pathname"
 
   [params.reward]                                         # 文章打赏
