@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tips on Leo 的博客</title>
-    <link>https://runlin.live/blog/categories/tips/</link>
+    <link>https://wangrunlin.com/blog/categories/tips/</link>
     <description>Recent content in tips on Leo 的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 12 Jun 2021 15:57:24 +0800</lastBuildDate><atom:link href="https://runlin.live/blog/categories/tips/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Jun 2021 15:57:24 +0800</lastBuildDate><atom:link href="https://wangrunlin.com/blog/categories/tips/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的文件管理方式</title>
-      <link>https://runlin.live/blog/post/210612_my_way_file_management/</link>
+      <link>https://wangrunlin.com/blog/post/210612_my_way_file_management/</link>
       <pubDate>Sat, 12 Jun 2021 15:57:24 +0800</pubDate>
       
-      <guid>https://runlin.live/blog/post/210612_my_way_file_management/</guid>
+      <guid>https://wangrunlin.com/blog/post/210612_my_way_file_management/</guid>
       <description>&lt;h2 id=&#34;0x00&#34;&gt;0x00&lt;/h2&gt;
 &lt;p&gt;浅显的讲一下我目前的文件方式。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Vim 操作小提示</title>
-      <link>https://runlin.live/blog/post/210314_vim_tips/</link>
+      <link>https://wangrunlin.com/blog/post/210314_vim_tips/</link>
       <pubDate>Sun, 14 Mar 2021 01:10:53 +0800</pubDate>
       
-      <guid>https://runlin.live/blog/post/210314_vim_tips/</guid>
+      <guid>https://wangrunlin.com/blog/post/210314_vim_tips/</guid>
       <description>&lt;h2 id=&#34;0x00&#34;&gt;0x00&lt;/h2&gt;
 &lt;p&gt;Vim 操作小提示&lt;/p&gt;</description>
     </item>

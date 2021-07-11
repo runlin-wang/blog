@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Leo 的博客</title>
-    <link>https://runlin.live/blog/post/</link>
+    <link>https://wangrunlin.com/blog/post/</link>
     <description>Recent content in Posts on Leo 的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 12 Jun 2021 15:57:24 +0800</lastBuildDate><atom:link href="https://runlin.live/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Jun 2021 15:57:24 +0800</lastBuildDate><atom:link href="https://wangrunlin.com/blog/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的文件管理方式</title>
-      <link>https://runlin.live/blog/post/210612_my_way_file_management/</link>
+      <link>https://wangrunlin.com/blog/post/210612_my_way_file_management/</link>
       <pubDate>Sat, 12 Jun 2021 15:57:24 +0800</pubDate>
       
-      <guid>https://runlin.live/blog/post/210612_my_way_file_management/</guid>
+      <guid>https://wangrunlin.com/blog/post/210612_my_way_file_management/</guid>
       <description>&lt;h2 id=&#34;0x00&#34;&gt;0x00&lt;/h2&gt;
 &lt;p&gt;浅显的讲一下我目前的文件方式。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>生日快乐 🎂</title>
-      <link>https://runlin.live/blog/post/210519_birthday/</link>
+      <link>https://wangrunlin.com/blog/post/210519_birthday/</link>
       <pubDate>Wed, 19 May 2021 11:50:25 +0800</pubDate>
       
-      <guid>https://runlin.live/blog/post/210519_birthday/</guid>
+      <guid>https://wangrunlin.com/blog/post/210519_birthday/</guid>
       <description>&lt;h2 id=&#34;0x00&#34;&gt;0x00&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;对生日好像也没有什么特别的感触了，可能因为我是闰月生的？&lt;br&gt;
@@ -33,10 +33,10 @@ hah，按理来说是应该 12 年才有一次正式的生日。&lt;br&gt;
     
     <item>
       <title>2020 - 2021 年度总结</title>
-      <link>https://runlin.live/blog/post/210418_2020-2021_summary/</link>
+      <link>https://wangrunlin.com/blog/post/210418_2020-2021_summary/</link>
       <pubDate>Sun, 18 Apr 2021 23:46:35 +0800</pubDate>
       
-      <guid>https://runlin.live/blog/post/210418_2020-2021_summary/</guid>
+      <guid>https://wangrunlin.com/blog/post/210418_2020-2021_summary/</guid>
       <description>&lt;h2 id=&#34;0x00&#34;&gt;0x00&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;2020 - 2021 年度总结&lt;/li&gt;
@@ -46,30 +46,30 @@ hah，按理来说是应该 12 年才有一次正式的生日。&lt;br&gt;
     
     <item>
       <title>兜兜转转还是回到这里</title>
-      <link>https://runlin.live/blog/post/210416_hugo_blog/</link>
+      <link>https://wangrunlin.com/blog/post/210416_hugo_blog/</link>
       <pubDate>Fri, 16 Apr 2021 22:29:51 +0800</pubDate>
       
-      <guid>https://runlin.live/blog/post/210416_hugo_blog/</guid>
+      <guid>https://wangrunlin.com/blog/post/210416_hugo_blog/</guid>
       <description>&lt;h2 id=&#34;0x00&#34;&gt;0x00&lt;/h2&gt;
 &lt;p&gt;个人博客最重要的是坚持。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Tmux 使用手册</title>
-      <link>https://runlin.live/blog/post/210316_tmux/</link>
+      <link>https://wangrunlin.com/blog/post/210316_tmux/</link>
       <pubDate>Tue, 16 Mar 2021 01:09:00 +0800</pubDate>
       
-      <guid>https://runlin.live/blog/post/210316_tmux/</guid>
+      <guid>https://wangrunlin.com/blog/post/210316_tmux/</guid>
       <description>&lt;h2 id=&#34;0x00&#34;&gt;0x00&lt;/h2&gt;
 &lt;p&gt;tmux 基础操作与快捷键&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Vim 操作小提示</title>
-      <link>https://runlin.live/blog/post/210314_vim_tips/</link>
+      <link>https://wangrunlin.com/blog/post/210314_vim_tips/</link>
       <pubDate>Sun, 14 Mar 2021 01:10:53 +0800</pubDate>
       
-      <guid>https://runlin.live/blog/post/210314_vim_tips/</guid>
+      <guid>https://wangrunlin.com/blog/post/210314_vim_tips/</guid>
       <description>&lt;h2 id=&#34;0x00&#34;&gt;0x00&lt;/h2&gt;
 &lt;p&gt;Vim 操作小提示&lt;/p&gt;</description>
     </item>

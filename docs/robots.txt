@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://runlin.live/blog/sitemap.xml
+Sitemap: https://wangrunlin.com/blog/sitemap.xml
