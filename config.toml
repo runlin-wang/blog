@@ -1,5 +1,5 @@
 baseURL = "https://wangrunlin.com/blog"
-title = "Leo's blog"
+title = "王润林的网络日志"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -16,11 +16,11 @@ copyright = ""                   # default: author.name ↓        # 默认为�
 defaultContentLanguage = "zh-cn"           # Default language to use
 [languages.zh-cn]
   languageCode = "zh-cn"
-  title = "Leo 的博客"
+  title = "王润林的网络日志"
   weight = 2
 [languages.en]
   languageCode = "en"
-  title = "Leo's blog"
+  title = "Wang Runlin's blog"
   weight = 1
 
 [author]                  # essential                     # 必需
@@ -88,7 +88,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:leo@runlin.live"
+    a-email = "mailto:leo@wangrunlin.com"
     # b-stack-overflow = "http://localhost:1313"
     c-twitter = "https://twitter.com/Leo36363824"
     # d-facebook = "http://localhost:1313"
@@ -114,7 +114,6 @@ defaultContentLanguage = "zh-cn"           # Default language to use
     enable = false
     analytics = ''
 
-  # TODO:  <16-04-21, leo> #create a repo to utteranc
   [params.utteranc]         # utteranc is a comment system based on GitHub issues. see https://utteranc.es
     enable = true
     repo = "wangrunlin/utterances_blog"    # The repo to store comments
