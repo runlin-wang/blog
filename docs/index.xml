@@ -6,7 +6,7 @@
     <description>Recent content on 王润林的网络日志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 12 Jun 2021 15:57:24 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jul 2021 10:43:16 +0800</lastBuildDate>
     
         <atom:link href="https://wangrunlin.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
@@ -26,6 +26,27 @@
 &lt;li&gt;Follow me on &lt;a href=&#34;https://twitter.com/Leo36363824&#34;&gt;Twitter&lt;/a&gt; &lt;a href=&#34;https://space.bilibili.com/294989861&#34;&gt;bilibili&lt;/a&gt; &lt;a href=&#34;https://github.com/runlin-wang&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
+      
+    </item>
+    
+    <item>
+      <title>MySQL 执行大 sql 文件的命令行快速解决方案</title>
+      <link>https://wangrunlin.com/blog/post/210730_run_big_sql_file_tips/</link>
+      <pubDate>Fri, 30 Jul 2021 10:43:16 +0800</pubDate>
+      
+      <guid>https://wangrunlin.com/blog/post/210730_run_big_sql_file_tips/</guid>
+      
+        <description>&lt;h2 id=&#34;mysql-执行大-sql-文件的命令行快速解决方案&#34;&gt;MySQL 执行大 sql 文件的命令行快速解决方案&lt;/h2&gt;
+&lt;p&gt;今天有一个 3w 行记录的 sql 文件
+直接执行 sql 语句会很慢，电脑直接卡爆 3 次
+遂另寻解决方案，现记录如下&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;mysql -u &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;username&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; -p -D&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;database name&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;sql file path&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+mysql -u &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;用户名&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; -p -D&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;数据库名&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;sql 文件路径&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+
+案例：
+mysql -u root -p -Dpear-admin-pro &amp;lt; ./pear-admin-pro.sql
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;执行时间&#34;&gt;执行时间&lt;/h3&gt;
+&lt;p&gt;3 万行 sql （文件大小：4.9M）语句执行时间不到 5 秒&lt;/p&gt;</description>
       
     </item>
     

@@ -10,41 +10,69 @@
   
   <url>
     <loc>https://wangrunlin.com/blog/categories/</loc>
-    <lastmod>2021-06-12T15:57:24+08:00</lastmod>
+    <lastmod>2021-07-30T10:43:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://wangrunlin.com/blog/tags/life/</loc>
-    <lastmod>2021-06-12T15:57:24+08:00</lastmod>
+    <loc>https://wangrunlin.com/blog/tags/mysql/</loc>
+    <lastmod>2021-07-30T10:43:16+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://wangrunlin.com/blog/categories/mysql/</loc>
+    <lastmod>2021-07-30T10:43:16+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://wangrunlin.com/blog/post/210730_run_big_sql_file_tips/</loc>
+    <lastmod>2021-07-30T10:43:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wangrunlin.com/blog/post/</loc>
-    <lastmod>2021-06-12T15:57:24+08:00</lastmod>
+    <lastmod>2021-07-30T10:43:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wangrunlin.com/blog/tags/</loc>
-    <lastmod>2021-06-12T15:57:24+08:00</lastmod>
+    <lastmod>2021-07-30T10:43:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wangrunlin.com/blog/tags/tips/</loc>
-    <lastmod>2021-06-12T15:57:24+08:00</lastmod>
+    <lastmod>2021-07-30T10:43:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://wangrunlin.com/blog/categories/tips/</loc>
+    <lastmod>2021-07-30T10:43:16+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://wangrunlin.com/blog/</loc>
+    <lastmod>2021-07-30T10:43:16+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://wangrunlin.com/blog/tags/life/</loc>
     <lastmod>2021-06-12T15:57:24+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -59,13 +87,6 @@
   
   <url>
     <loc>https://wangrunlin.com/blog/categories/%E6%8A%80%E6%9C%AF%E5%90%91/</loc>
-    <lastmod>2021-06-12T15:57:24+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://wangrunlin.com/blog/</loc>
     <lastmod>2021-06-12T15:57:24+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

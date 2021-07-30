@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Vim · 王润林的网络日志</title>
+  <title>MySQL 执行大 sql 文件的命令行快速解决方案 - 王润林的网络日志</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -22,9 +22,9 @@
 
 <meta name="mobile-web-app-capable" content="yes">
 
-<meta name="author" content="LeoWang" />
-  <meta name="description" content="Leo&#39;s blog" />
-  <meta name="keywords" content="Leo, blog, life" />
+<meta name="author" content="LeoWang" /><meta name="description" content="run big sql file tips" />
+<meta name="keywords" content="mysql, tips" />
+
 
 
 
@@ -34,8 +34,8 @@
 <meta name="generator" content="Hugo 0.86.0" />
 
 
-<link rel="canonical" href="https://wangrunlin.com/blog/tags/vim/" />
-<link href="/blog/tags/vim/index.xml" rel="alternate" type="application/rss+xml" title="王润林的网络日志" />
+<link rel="canonical" href="https://wangrunlin.com/blog/post/210730_run_big_sql_file_tips/" />
+
 
 
 
@@ -58,15 +58,20 @@
 
 
 
-<meta property="og:title" content="Vim" />
-<meta property="og:description" content="Leo&#39;s blog" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://wangrunlin.com/blog/tags/vim/" /><meta property="og:site_name" content="王润林的网络日志" />
+<meta property="og:title" content="MySQL 执行大 sql 文件的命令行快速解决方案" />
+<meta property="og:description" content="run big sql file tips" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://wangrunlin.com/blog/post/210730_run_big_sql_file_tips/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-07-30T10:43:16+08:00" />
+<meta property="article:modified_time" content="2021-07-30T10:43:16+08:00" /><meta property="og:site_name" content="王润林的网络日志" />
 
-<meta itemprop="name" content="Vim">
-<meta itemprop="description" content="Leo&#39;s blog"><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Vim"/>
-<meta name="twitter:description" content="Leo&#39;s blog"/>
+<meta itemprop="name" content="MySQL 执行大 sql 文件的命令行快速解决方案">
+<meta itemprop="description" content="run big sql file tips"><meta itemprop="datePublished" content="2021-07-30T10:43:16+08:00" />
+<meta itemprop="dateModified" content="2021-07-30T10:43:16+08:00" />
+<meta itemprop="wordCount" content="134">
+<meta itemprop="keywords" content="mysql,tips," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="MySQL 执行大 sql 文件的命令行快速解决方案"/>
+<meta name="twitter:description" content="run big sql file tips"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -339,55 +344,138 @@ if (!doNotTrack) {
     <main id="main" class="main bg-llight">
       <div class="content-wrapper">
         <div id="content" class="content container">
-          
-
-<section id="archive" class="archive">
-  
+          <article class="post bg-white">
     
-      <div class="archive-title tag">
-        <h2 class="archive-name">标签： Vim</h2>
+    <header class="post-header">
+      <h1 class="post-title">MySQL 执行大 sql 文件的命令行快速解决方案</h1>
+      
+      <div class="post-meta">
+        <time datetime="2021-07-30" class="post-time">
+          2021-07-30
+        </time>
+        <div class="post-category">
+            <a href="https://wangrunlin.com/blog/categories/mysql/"> mysql </a>
+            <a href="https://wangrunlin.com/blog/categories/tips/"> tips </a>
+            
+          </div>
+        <span class="more-meta"> 约 134 字 </span>
+          <span class="more-meta"> 预计阅读 1 分钟 </span>
+
+        
+        
+          <span id="busuanzi_container_page_pv">
+            | 阅读 <span id="busuanzi_value_page_pv"></span>
+          </span>
+        
+
+        
+        
       </div>
+    </header>
+
     
+    
+
+    
+    <div class="post-content">
+      <h2 id="mysql-执行大-sql-文件的命令行快速解决方案">MySQL 执行大 sql 文件的命令行快速解决方案</h2>
+<p>今天有一个 3w 行记录的 sql 文件
+直接执行 sql 语句会很慢，电脑直接卡爆 3 次
+遂另寻解决方案，现记录如下</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mysql -u <span style="color:#f92672">(</span>username<span style="color:#f92672">)</span> -p -D<span style="color:#f92672">(</span>database name<span style="color:#f92672">)</span> &lt; <span style="color:#f92672">(</span>sql file path<span style="color:#f92672">)</span>
+mysql -u <span style="color:#f92672">(</span>用户名<span style="color:#f92672">)</span> -p -D<span style="color:#f92672">(</span>数据库名<span style="color:#f92672">)</span> &lt; <span style="color:#f92672">(</span>sql 文件路径<span style="color:#f92672">)</span>
+
+案例：
+mysql -u root -p -Dpear-admin-pro &lt; ./pear-admin-pro.sql
+</code></pre></div><h3 id="执行时间">执行时间</h3>
+<p>3 万行 sql （文件大小：4.9M）语句执行时间不到 5 秒</p>
+    </div>
+
+    
+    
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">LeoWang</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+      2021-07-30
+      
+    </span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">许可协议</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="https://wangrunlin.com/blog/tags/mysql/">mysql</a>
+          <a href="https://wangrunlin.com/blog/tags/tips/">tips</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+        
+          <a class="next" href="/blog/post/210612_my_way_file_management/">
+            <span class="next-text nav-default">我的文件管理方式</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            
+            <i class="iconfont">
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+            </i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  
+  
   
 
   
-    <div class="archive-post">
-      <time datetime="2021-03-14" class="archive-post-time">
-        2021-03-14
-      </time>
-      <span class="archive-post-title">
-        <a href="/blog/post/210314_vim_tips/" class="archive-post-link">
-          Vim 操作小提示
-        </a>
-      </span>
+  
+
+  
+
+  
+  
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "wangrunlin/utterances_blog"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+      </script>
     </div>
   
-</section>
-
-
-
-
-
 
   
-  
+
   
 
   
-  
+
+    
 
   
-  
-
-  
-  
-
-  
-  
-
-
-
-
 
         </div>
       </div>
