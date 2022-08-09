@@ -2,7 +2,7 @@
 title: "生日快乐 🎂"
 date: 2021-05-19T11:50:25+08:00
 lastmod: 2021-05-19T11:50:25+08:00
-draft: false
+draft: true
 keywords: ['birthday', 'life']
 description: "生日快乐"
 tags: ['life', '生活', '生日']
