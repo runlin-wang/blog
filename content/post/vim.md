@@ -2,12 +2,12 @@
 title: "Vim 操作小提示"
 date: 2021-03-14T01:10:53+08:00
 lastmod: 2021-04-17T01:10:53+08:00
-draft: false
+draft: true
 keywords: ["Vim", "tips"]
 description: "Vim tips"
 tags: ["Vim", "tips", "技术向"]
 categories: ["技术向", "tips"]
-author: "LeoWang"
+author: "Leo Wang"
 
 comment: true
 toc: false
