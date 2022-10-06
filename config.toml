@@ -25,6 +25,11 @@ title = "Leo Wang"
   name = '阿林'
   bio = 'Description'
 
+  # https://umami.is Umami is an open source, privacy-focused alternative to Google Analytics
+  [params.umami]
+    enable = true
+    code = '<script async defer data-website-id="fa906209-3da5-4ec4-937c-7c5468eca37f" src="https://stats.wangrunlin.com/umami.js"></script>'
+
 # ------------------------------
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
