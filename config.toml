@@ -23,7 +23,7 @@ title = "Leo Wang"
 
   avatar = 'https://github.com/wangrunlin.png'
   name = '阿林'
-  bio = 'Description'
+  bio = '🌟 Web Developer & Lifelong learner'
 
   # https://umami.is Umami is an open source, privacy-focused alternative to Google Analytics
   [params.umami]
@@ -39,11 +39,11 @@ title = "Leo Wang"
       unsafe = true
 
 [menu]
-  # [[menu.main]]
-  #   identifier = "about"
-  #   name = "About"
-  #   url = "/about/"
-  #   weight = 10
+    [[menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "https://wangrunlin.com"
+      weight = 10
   # [[menu.main]]
   #   identifier = "contact"
   #   name = "Contact"
